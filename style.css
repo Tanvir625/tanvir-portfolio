@@ -68,6 +68,7 @@ nav ul a {
 
 .banner-text {
   margin-top: 280px;
+  width: 40%;
 }
 
 header {
@@ -105,7 +106,7 @@ nav {
 }
 .about-items {
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   align-items: center;
 }
 
@@ -129,8 +130,8 @@ nav {
   text-align: center;
   font-size: 35px;
 }
-.skills p {
-  margin: 20px 100px;
+.all-skills-des {
+  margin: 30px 100px;
   font-size: 18px;
   text-align: center;
 }
@@ -138,4 +139,69 @@ nav {
 .skill-container {
   display: flex;
   justify-content: space-around;
+  gap: 24px;
+}
+.individual-skill {
+  box-shadow: 0px 6px 50px 0px #000000;
+  padding: 30px;
+}
+.resume-container {
+  display: flex;
+  justify-content: space-between;
+}
+.resume-title {
+  text-align: center;
+  margin-bottom: 60px;
+}
+.resume {
+  margin: 0px 230px;
+}
+hr {
+  margin-right: 100px;
+  color: #878585;
+}
+
+.resume-action {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 24px;
+  margin-bottom: 120px;
+}
+.resume-column {
+  width: 40%;
+}
+.footer-social-icon {
+  display: flex;
+  gap: 20px;
+}
+
+.footer-container {
+  padding: 120px 220px 140px 220px;
+}
+.footer-column {
+  width: 50%;
+}
+.footer-container {
+  display: flex;
+}
+.footer-form {
+  display: block; /* ensure the form itself is not inline or flex */
+  width: 100%;
+}
+
+/* make form controls stack vertically and take full width */
+.footer-form > * {
+  display: block;
+  width: 100%;
+  margin-bottom: 12px;
+  /* box-sizing: border-box; */
+}
+
+.footer-form button {
+  display: inline-block;
+  width: auto;
+  margin: 0 0 12px 0; /* keep vertical spacing but align left */
+  padding: 12px 24px; /* adjust size as needed */
 }
