@@ -1,0 +1,141 @@
+.header {
+  /* margin: 30px 180px; */
+}
+
+/* nav style */
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav h3 {
+  font-size: 45px;
+  font-weight: 800;
+}
+
+nav span {
+  color: #fd6e0a;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+}
+
+nav ul a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.btn-primary {
+  background-color: #fd6e0a;
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 18px 36px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+}
+.btn-secondary {
+  background-color: #fff8f3;
+  color: #fd6e0a;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 18px 36px;
+  cursor: pointer;
+  border: 1px solid #fd6e0a;
+  border-radius: 5px;
+}
+.bg-two {
+  background-color: #fff8f3;
+}
+
+.header-container {
+  margin: 51px 180px 20px 180px;
+}
+
+.menu li {
+  list-style: none;
+  margin-right: 51px;
+}
+
+.banner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.banner-text {
+  margin-top: 280px;
+}
+
+header {
+  background-image: url(images/developer.png), url(images/header_bg.png);
+  background-repeat: no-repeat;
+  background-position: top left, bottom right;
+  background-size: auto;
+  background-color: #fff8f3;
+}
+.banner-greetings {
+  font-size: 45px;
+  font-weight: 600;
+}
+
+.banner-title {
+  font-size: 85px;
+  font-weight: 800;
+  margin-top: -40px;
+  margin-bottom: -10px;
+}
+.banner-profile-pic {
+  width: 580px;
+  margin-top: 180px;
+}
+nav {
+  margin-top: -50px;
+}
+
+.about-section-container {
+  margin: 130px 220px;
+}
+.about-content {
+  margin: 130px 150px;
+  padding: 100px 110px;
+}
+.about-items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.item-title {
+  font-size: 14px;
+  font-weight: 400;
+  color: #757575;
+}
+.item-description {
+  font-size: 14px;
+  font-weight: bold;
+  color: #757575;
+}
+
+/* ----------skills------------- */
+.skills {
+  margin: 130px 230px;
+}
+
+.skills h3 {
+  text-align: center;
+  font-size: 35px;
+}
+.skills p {
+  margin: 20px 100px;
+  font-size: 18px;
+  text-align: center;
+}
+
+.skill-container {
+  display: flex;
+  justify-content: space-around;
+}
