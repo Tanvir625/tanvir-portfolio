@@ -185,6 +185,7 @@ hr {
 }
 .footer-container {
   display: flex;
+  justify-content: space-between;
 }
 .footer-form {
   display: block; /* ensure the form itself is not inline or flex */
@@ -209,4 +210,7 @@ hr {
 .about-title {
   justify-content: center;
   text-align: center;
+}
+.footer-column {
+  width: 40%;
 }
