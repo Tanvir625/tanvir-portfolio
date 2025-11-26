@@ -79,8 +79,8 @@ header {
   background-color: #fff8f3;
 }
 .banner-greetings {
-  font-size: 45px;
-  font-weight: 600;
+  font-size: 34px;
+  font-weight: 400;
 }
 
 .banner-title {
@@ -197,6 +197,8 @@ hr {
   display: block;
   width: 100%;
   margin-bottom: 12px;
+  border: none;
+  padding: 10px 20px;
   /* box-sizing: border-box; */
 }
 
