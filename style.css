@@ -178,7 +178,7 @@ hr {
 }
 
 .footer-container {
-  padding: 120px 220px 140px 220px;
+  padding: 120px 180px 140px 180px;
 }
 .footer-column {
   width: 50%;
@@ -204,4 +204,9 @@ hr {
   width: auto;
   margin: 0 0 12px 0; /* keep vertical spacing but align left */
   padding: 12px 24px; /* adjust size as needed */
+}
+
+.about-title {
+  justify-content: center;
+  text-align: center;
 }
